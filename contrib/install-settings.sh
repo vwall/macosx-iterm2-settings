@@ -20,7 +20,7 @@ if ps wwwaux | egrep -q 'iTerm\.app' >/dev/null ; then
 fi
 
 plist="com.googlecode.iterm2.plist"
-plist_url="https://github.com/fnichol/macosx-iterm2-settings/raw/master/$plist"
+plist_url="https://github.com/vwall/macosx-iterm2-settings/raw/master/$plist"
 new_plist="/tmp/${plist}-$$"
 installed_plist="$HOME/Library/Preferences/$plist"
 
